@@ -10,7 +10,7 @@ class FlipkartSpider(scrapy.Spider):
 
     def __init__(self, name=None, **kwargs):
         super().__init__(name, **kwargs)
-        product = kwargs.get('product', 'shoes')
+        product = kwargs.get('product', 'shampoo')
         self.base_url = str(f"{self.base_url}{product}")
         self.pages = int(kwargs.get('pages', '1'))
 
@@ -23,11 +23,12 @@ class FlipkartSpider(scrapy.Spider):
             time.sleep(5)
 
     def parse(self, response):
+        print(self.base_url)
         links = []
         base = 'https://www.flipkart.com'
         page_num = response.url.split('&page=')[-1]
-        for div in response.css('div._1xHGtK._373qXS, div._2kHMtA'):
-            link = div.css('a.IRpwTa::attr(href)').get()
+        for div in response.css('div._4ddWXP'):
+            link = div.css('a.s1Q9rs::attr(href)').get()
             links.append(base + link)
         yield {
             str(page_num): links

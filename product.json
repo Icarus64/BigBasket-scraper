@@ -1,0 +1,30 @@
+[
+  {
+    "brand_name": "HEAD & SHOULDERS Shampoo",
+    "product_name": "HEAD & SHOULDERS Smooth and Silky Anti Dandruff Shampoo for Softer and Smoother Hair  (1 L)",
+    "price": "₹730",
+    "quantity_options": [
+      {
+        "quantity": "180 ml",
+        "href": "https://www.flipkart.com/head-shoulders-smooth-silky-shampoo-anti-dandruff-all-hair-types/p/itm24eec93ea5acf?pid=SMPETEEWDNQYFPHZ&lid=LSTSMPETEEWDNQYFPHZPUN3IW&marketplace=FLIPKART&sattr[]=quantity&st=quantity",
+        "price": "₹176"
+      },
+      {
+        "quantity": "340 ml",
+        "href": "https://www.flipkart.com/head-shoulders-smooth-silky-anti-dandruff-shampoo-women-men/p/itm1f330b31eb225?pid=SMPFJRHZB5MYJ7EN&lid=LSTSMPFJRHZB5MYJ7ENDU4XJC&marketplace=FLIPKART&sattr[]=quantity&st=quantity",
+        "price": "₹345"
+      },
+      {
+        "quantity": "650 ml",
+        "href": "https://www.flipkart.com/head-shoulders-smooth-silky-anti-dandruff-shampoo-dry-damaged-frizzy-hair/p/itm8d586fdcb5af5?pid=SMPFGUN2VYZNNFS5&lid=LSTSMPFGUN2VYZNNFS5ZEUE5N&marketplace=FLIPKART&sattr[]=quantity&st=quantity",
+        "price": "₹535"
+      },
+      {
+        "quantity": "1 L",
+        "href": "https://www.flipkart.com/head-shoulders-smooth-silky-anti-dandruff-shampoo-softer-smoother-hair/p/itm4d1d0a0d5e49b?pid=SMPFYG2TYVHGJZB2&lid=LSTSMPFYG2TYVHGJZB2TJOQAP&marketplace=FLIPKART&sattr[]=quantity&st=quantity",
+        "price": "₹730"
+      }
+    ],
+    "description": "Go from dry and frizzy hair to smooth and silky hair in just one wash. Head & Shoulders Smooth & Silky Anti-Dandruff Shampoo is formulated with added moisturizers to cleanse and restore dry, frizzy hair and leave you with dandruff free hair*. Go ahead, run your hands through your hair again.\n(*visible flakes only, with regular use) - 24 hour frizz control for smooth, beautiful-looking hair - Gentle pH balanced formula for everyday use, even on color treated hair"
+  }
+]
