@@ -26,10 +26,9 @@ class FlipkartSpider(scrapy.Spider):
         print(self.base_url)
         links = []
         base = 'https://www.flipkart.com'
-        page_num = response.url.split('&page=')[-1]
         for div in response.css('div._4ddWXP'):
             link = div.css('a.s1Q9rs::attr(href)').get()
             links.append(base + link)
         yield {
-            str(page_num): links
+            'links': links
         }

@@ -1,26 +1,29 @@
-import scrapy
+import json
 import asyncio
 from pyppeteer import launch
 
+urls = []
+with open('./flipkart_links.json', 'r') as file:
+    for item in json.load(file):
+        for link in item['links']:
+            urls.append(link)
 
-class ShampooDataSpider(scrapy.Spider):
-    name = "shampoo_data"
-    start_urls = ["https://www.flipkart.com/head-shoulders-cool-menthol-anti-dandruff-shampoo-scalp-protection/p/itm75826181813f3?pid=SMPFGUN2TACXXRTE&lid=LSTSMPFGUN2TACXXRTEABASY9&marketplace=FLIPKART&q=shampoo&store=g9b%2Flcf%2Fqqm%2Ft36&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=219893a1-5b7a-42cd-9f84-b3a3d909d04a.SMPFGUN2TACXXRTE.SEARCH&ppt=sp&ppn=sp&ssid=ehnpu9i1rk0000001680075104765&qH=186764a607df448c"]
+data = []
 
-    async def parse(self, response):
-        # Launch a new browser instance
-        browser = await launch(headless=True)
+async def crawler():
+    browser = await launch(headless=True)
+    for link in urls:
         page = await browser.newPage()
 
         # Navigate to the product page
-        await page.goto(response.url)
-       
+        await page.goto(link)
+
         # Get the div tag with class="_1MR4o5"
 
         breadcrumb_divs = await page.querySelectorAll('div._1MR4o5 div')
 
         if len(breadcrumb_divs) >= 2:
-            
+
             div_target = await page.querySelector('div._1MR4o5 div:nth-last-child(2)')
 
             brand_name = await div_target.querySelectorEval('a._2whKao', "el => el.textContent")
@@ -43,22 +46,6 @@ class ShampooDataSpider(scrapy.Spider):
         # Get the description
         description = await page.querySelectorEval('div._1mXcCf, div._1mXcCf.RmoJUa', 'el => el.textContent')
 
-        # Type the desired pin code and press enter
-        input_field = await page.querySelector('input._36yFo0')
-        await input_field.type('409999\n')
-
-        # Press on the span tag with class _2P_LDn
-        span_element = await page.querySelector('span._2P_LDn')
-        await span_element.click()
-
-        # Wait for the element with class _1SLzzw to appear
-        await page.waitForSelector('div._1SLzzw')
-
-        # Get the innerHTML of the div with class _1SLzzw and its children
-        div_element = await page.querySelector('div.row._2WVRLm')
-        delivery_code = await page.evaluate('(element) => element.innerHTML', div_element)
-
-
         # Get the rating, review count and rating count
         rating_div = await page.querySelector('div.gUuXy-._16VRIQ')
         if rating_div:
@@ -69,10 +56,7 @@ class ShampooDataSpider(scrapy.Spider):
                 if len(spans) > 2:
                     ratings_count = await (await spans[1].getProperty('textContent')).jsonValue()
                     reviews_count = await (await spans[3].getProperty('textContent')).jsonValue()
-
-
-
-
+        
         quantity_options = []
         els = await page.querySelectorAll('a._1fGeJ5, a._1fGeJ5.PP89tw')
         for el in els:
@@ -84,30 +68,26 @@ class ShampooDataSpider(scrapy.Spider):
         for item in quantity_options:
             await page.goto(item["href"], waitUntil='networkidle2', timeout=10000)
             product_div = await page.querySelector('div.aMaAEs')
-            # item['price'] = await product_div.querySelectorEval('div._30jeq3._16Jk6d', 'el => el.textContent')
-            if product_div:
-                item['price'] = await product_div.querySelectorEval('div._30jeq3._16Jk6d, div._2Tpdn3._1vevjr', 'el => el.textContent')
-            else:
-                item['price'] = None
-
-        
-        
+            item['price'] = await product_div.querySelectorEval('div._30jeq3._16Jk6d', 'el => el.textContent')
 
         # Close the browser instance
         await page.close()
-        await asyncio.sleep(3)
 
-        # Create a dictionary of the scraped data
-        data = {
+        data.append({
             'brand_name': brand_name,
             'product_name': product_name.strip(),
             'price': price.strip(),
-            'delivery_code': delivery_code,
             'rating': rating,
             'ratings_count': ratings_count,
             'reviews_count': reviews_count,
             'quantity_options': quantity_options,
             'description': description.strip(),
-        }
+        })
 
-        yield data
+        await asyncio.sleep(3)
+    
+    await browser.close()
+
+asyncio.run(crawler())
+with open('./flip_data.json', 'w') as file:
+    json.dump(data, file)
