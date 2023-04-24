@@ -5,7 +5,9 @@ from pyppeteer import launch
 
 class ShampooDataSpider(scrapy.Spider):
     name = "shampoo_data"
-    start_urls = ["https://www.flipkart.com/head-shoulders-cool-menthol-anti-dandruff-shampoo-scalp-protection/p/itm75826181813f3?pid=SMPFGUN2TACXXRTE&lid=LSTSMPFGUN2TACXXRTEABASY9&marketplace=FLIPKART&q=shampoo&store=g9b%2Flcf%2Fqqm%2Ft36&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=219893a1-5b7a-42cd-9f84-b3a3d909d04a.SMPFGUN2TACXXRTE.SEARCH&ppt=sp&ppn=sp&ssid=ehnpu9i1rk0000001680075104765&qH=186764a607df448c"]
+    start_urls = [
+        "https://www.flipkart.com/pantene-advanced-hair-fall-solution-long-black-shampoo/p/itmedb1c9409e902?pid=SMPEZFDMWGWZFRFF&lid=LSTSMPEZFDMWGWZFRFFR9D4OP&marketplace=FLIPKART&q=shampoo&store=g9b%2Flcf%2Fqqm%2Ft36&srno=s_4_121&otracker=search&fm=organic&iid=5ba21289-4d6f-4215-90b9-036a43b0f932.SMPEZFDMWGWZFRFF.SEARCH&ppt=None&ppn=None&ssid=36gwtegxu80000001681715997101&qH=186764a607df448c"
+    ]
 
     async def parse(self, response):
         # Launch a new browser instance

@@ -1,62 +1,302 @@
 [
-{"product_name": "Dryness Care Conditioner - Restores Smoothness, For Dry & Frizzy Hair", "actual_price": null, "discounted_price": "210"},
-{"product_name": "Hair Fall Rescue Conditioner -  Infused With Nutrilock Actives, Controls Frizz", "actual_price": null, "discounted_price": "210"},
-{"product_name": "6 Oil Nourish Conditioner", "actual_price": "239", "discounted_price": "166.94"},
-{"product_name": "Conditioner - Nourishing Soft & Smooth", "actual_price": null, "discounted_price": "166"},
-{"product_name": "Total Repair 5 Conditioner", "actual_price": "229", "discounted_price": "159.96"},
-{"product_name": "Gentle Daily Care Protein Conditioner - Chickpea, Lotus, For All Hair Types", "actual_price": "165", "discounted_price": "136.95"},
-{"product_name": "Keratin Smooth Pro Collection Conditioner - Keratin & Argan Oil, Upto 100% Smoother Shiny Hair", "actual_price": null, "discounted_price": "229"},
-{"product_name": "Extraordinary Clay  Conditioner", "actual_price": "229", "discounted_price": "162.09"},
-{"product_name": "Gentle Daily Care Protein Conditioner - With Chickpea", "actual_price": "90", "discounted_price": "81.90"},
-{"product_name": "Hyaluron Moisture 72H Moisture Sealing Conditioner | With Hyaluronic Acid | For Dry & Dehydrated Hair | Adds Shine & Bounce", "actual_price": "249", "discounted_price": "197.95"},
-{"product_name": "Intense Repair Conditioner - With Keratin Actives, For Damaged & Frizzy Hair", "actual_price": null, "discounted_price": "368"},
-{"product_name": "Advanced Hair Fall Solution Conditioner", "actual_price": null, "discounted_price": "90"},
-{"product_name": "Color Protect Conditioner", "actual_price": "239", "discounted_price": "166.94"},
-{"product_name": "Dream Lengths Conditioner", "actual_price": null, "discounted_price": "109"},
-{"product_name": "6 Oil Nourish Rapid Reviver Deep Conditioner - Dry Hair, 2X Nourishment", "actual_price": "240", "discounted_price": "189"},
-{"product_name": "Anti-Hairfall Conditioner - Aloe & 21 Ayurvedic Herbs, Silky, Shiny, Smooth Hair", "actual_price": "200", "discounted_price": "130"},
-{"product_name": "Moroccan Argan Oil Conditioner - No Parabens, pH Balances", "actual_price": "130", "discounted_price": "123.50"},
-{"product_name": "Hair Fall Rescue Conditioner - Infused With Nutrilock Act", "actual_price": null, "discounted_price": "368"},
-{"product_name": "Fall Resist 3X Anti-Hairfall Conditioner", "actual_price": "229", "discounted_price": "162.09"},
-{"product_name": "Thick & Full Conditioner", "actual_price": null, "discounted_price": "229"},
-{"product_name": "Dryness Care Conditioner - Restores Smoothness, For Dry & Frizzy Hair", "actual_price": null, "discounted_price": "210"},
-{"product_name": "Hair Fall Rescue Conditioner -  Infused With Nutrilock Actives, Controls Frizz", "actual_price": null, "discounted_price": "210"},
-{"product_name": "6 Oil Nourish Conditioner", "actual_price": "239", "discounted_price": "166.94"},
-{"product_name": "Conditioner - Nourishing Soft & Smooth", "actual_price": null, "discounted_price": "166"},
-{"product_name": "Total Repair 5 Conditioner", "actual_price": "229", "discounted_price": "159.96"},
-{"product_name": "Gentle Daily Care Protein Conditioner - Chickpea, Lotus, For All Hair Types", "actual_price": "165", "discounted_price": "136.95"},
-{"product_name": "Keratin Smooth Pro Collection Conditioner - Keratin & Argan Oil, Upto 100% Smoother Shiny Hair", "actual_price": null, "discounted_price": "229"},
-{"product_name": "Extraordinary Clay  Conditioner", "actual_price": "229", "discounted_price": "162.09"},
-{"product_name": "Gentle Daily Care Protein Conditioner - With Chickpea", "actual_price": "90", "discounted_price": "81.90"},
-{"product_name": "Hyaluron Moisture 72H Moisture Sealing Conditioner | With Hyaluronic Acid | For Dry & Dehydrated Hair | Adds Shine & Bounce", "actual_price": "249", "discounted_price": "197.95"},
-{"product_name": "Intense Repair Conditioner - With Keratin Actives, For Damaged & Frizzy Hair", "actual_price": null, "discounted_price": "368"},
-{"product_name": "Advanced Hair Fall Solution Conditioner", "actual_price": null, "discounted_price": "90"},
-{"product_name": "Color Protect Conditioner", "actual_price": "239", "discounted_price": "166.94"},
-{"product_name": "Dream Lengths Conditioner", "actual_price": null, "discounted_price": "109"},
-{"product_name": "6 Oil Nourish Rapid Reviver Deep Conditioner - Dry Hair, 2X Nourishment", "actual_price": "240", "discounted_price": "189"},
-{"product_name": "Anti-Hairfall Conditioner - Aloe & 21 Ayurvedic Herbs, Silky, Shiny, Smooth Hair", "actual_price": "200", "discounted_price": "130"},
-{"product_name": "Moroccan Argan Oil Conditioner - No Parabens, pH Balances", "actual_price": "130", "discounted_price": "123.50"},
-{"product_name": "Hair Fall Rescue Conditioner - Infused With Nutrilock Act", "actual_price": null, "discounted_price": "368"},
-{"product_name": "Fall Resist 3X Anti-Hairfall Conditioner", "actual_price": "229", "discounted_price": "162.09"},
-{"product_name": "Thick & Full Conditioner", "actual_price": null, "discounted_price": "229"},
-{"product_name": "Dryness Care Conditioner - Restores Smoothness, For Dry & Frizzy Hair", "actual_price": null, "discounted_price": "210"},
-{"product_name": "Hair Fall Rescue Conditioner -  Infused With Nutrilock Actives, Controls Frizz", "actual_price": null, "discounted_price": "210"},
-{"product_name": "6 Oil Nourish Conditioner", "actual_price": "239", "discounted_price": "166.94"},
-{"product_name": "Conditioner - Nourishing Soft & Smooth", "actual_price": null, "discounted_price": "166"},
-{"product_name": "Total Repair 5 Conditioner", "actual_price": "229", "discounted_price": "159.96"},
-{"product_name": "Gentle Daily Care Protein Conditioner - Chickpea, Lotus, For All Hair Types", "actual_price": "165", "discounted_price": "136.95"},
-{"product_name": "Keratin Smooth Pro Collection Conditioner - Keratin & Argan Oil, Upto 100% Smoother Shiny Hair", "actual_price": null, "discounted_price": "229"},
-{"product_name": "Extraordinary Clay  Conditioner", "actual_price": "229", "discounted_price": "162.09"},
-{"product_name": "Gentle Daily Care Protein Conditioner - With Chickpea", "actual_price": "90", "discounted_price": "81.90"},
-{"product_name": "Hyaluron Moisture 72H Moisture Sealing Conditioner | With Hyaluronic Acid | For Dry & Dehydrated Hair | Adds Shine & Bounce", "actual_price": "249", "discounted_price": "197.95"},
-{"product_name": "Intense Repair Conditioner - With Keratin Actives, For Damaged & Frizzy Hair", "actual_price": null, "discounted_price": "368"},
-{"product_name": "Advanced Hair Fall Solution Conditioner", "actual_price": null, "discounted_price": "90"},
-{"product_name": "Color Protect Conditioner", "actual_price": "239", "discounted_price": "166.94"},
-{"product_name": "Dream Lengths Conditioner", "actual_price": null, "discounted_price": "109"},
-{"product_name": "6 Oil Nourish Rapid Reviver Deep Conditioner - Dry Hair, 2X Nourishment", "actual_price": "240", "discounted_price": "189"},
-{"product_name": "Anti-Hairfall Conditioner - Aloe & 21 Ayurvedic Herbs, Silky, Shiny, Smooth Hair", "actual_price": "200", "discounted_price": "130"},
-{"product_name": "Moroccan Argan Oil Conditioner - No Parabens, pH Balances", "actual_price": "130", "discounted_price": "123.50"},
-{"product_name": "Hair Fall Rescue Conditioner - Infused With Nutrilock Act", "actual_price": null, "discounted_price": "368"},
-{"product_name": "Fall Resist 3X Anti-Hairfall Conditioner", "actual_price": "229", "discounted_price": "162.09"},
-{"product_name": "Thick & Full Conditioner", "actual_price": null, "discounted_price": "229"}
+  {
+    "product_name": "Dryness Care Conditioner - Restores Smoothness, For Dry & Frizzy Hair",
+    "actual_price": null,
+    "discounted_price": "210"
+  },
+  {
+    "product_name": "Hair Fall Rescue Conditioner -  Infused With Nutrilock Actives, Controls Frizz",
+    "actual_price": null,
+    "discounted_price": "210"
+  },
+  {
+    "product_name": "6 Oil Nourish Conditioner",
+    "actual_price": "239",
+    "discounted_price": "166.94"
+  },
+  {
+    "product_name": "Conditioner - Nourishing Soft & Smooth",
+    "actual_price": null,
+    "discounted_price": "166"
+  },
+  {
+    "product_name": "Total Repair 5 Conditioner",
+    "actual_price": "229",
+    "discounted_price": "159.96"
+  },
+  {
+    "product_name": "Gentle Daily Care Protein Conditioner - Chickpea, Lotus, For All Hair Types",
+    "actual_price": "165",
+    "discounted_price": "136.95"
+  },
+  {
+    "product_name": "Keratin Smooth Pro Collection Conditioner - Keratin & Argan Oil, Upto 100% Smoother Shiny Hair",
+    "actual_price": null,
+    "discounted_price": "229"
+  },
+  {
+    "product_name": "Extraordinary Clay  Conditioner",
+    "actual_price": "229",
+    "discounted_price": "162.09"
+  },
+  {
+    "product_name": "Gentle Daily Care Protein Conditioner - With Chickpea",
+    "actual_price": "90",
+    "discounted_price": "81.90"
+  },
+  {
+    "product_name": "Hyaluron Moisture 72H Moisture Sealing Conditioner | With Hyaluronic Acid | For Dry & Dehydrated Hair | Adds Shine & Bounce",
+    "actual_price": "249",
+    "discounted_price": "197.95"
+  },
+  {
+    "product_name": "Intense Repair Conditioner - With Keratin Actives, For Damaged & Frizzy Hair",
+    "actual_price": null,
+    "discounted_price": "368"
+  },
+  {
+    "product_name": "Advanced Hair Fall Solution Conditioner",
+    "actual_price": null,
+    "discounted_price": "90"
+  },
+  {
+    "product_name": "Color Protect Conditioner",
+    "actual_price": "239",
+    "discounted_price": "166.94"
+  },
+  {
+    "product_name": "Dream Lengths Conditioner",
+    "actual_price": null,
+    "discounted_price": "109"
+  },
+  {
+    "product_name": "6 Oil Nourish Rapid Reviver Deep Conditioner - Dry Hair, 2X Nourishment",
+    "actual_price": "240",
+    "discounted_price": "189"
+  },
+  {
+    "product_name": "Anti-Hairfall Conditioner - Aloe & 21 Ayurvedic Herbs, Silky, Shiny, Smooth Hair",
+    "actual_price": "200",
+    "discounted_price": "130"
+  },
+  {
+    "product_name": "Moroccan Argan Oil Conditioner - No Parabens, pH Balances",
+    "actual_price": "130",
+    "discounted_price": "123.50"
+  },
+  {
+    "product_name": "Hair Fall Rescue Conditioner - Infused With Nutrilock Act",
+    "actual_price": null,
+    "discounted_price": "368"
+  },
+  {
+    "product_name": "Fall Resist 3X Anti-Hairfall Conditioner",
+    "actual_price": "229",
+    "discounted_price": "162.09"
+  },
+  {
+    "product_name": "Thick & Full Conditioner",
+    "actual_price": null,
+    "discounted_price": "229"
+  },
+  {
+    "product_name": "Dryness Care Conditioner - Restores Smoothness, For Dry & Frizzy Hair",
+    "actual_price": null,
+    "discounted_price": "210"
+  },
+  {
+    "product_name": "Hair Fall Rescue Conditioner -  Infused With Nutrilock Actives, Controls Frizz",
+    "actual_price": null,
+    "discounted_price": "210"
+  },
+  {
+    "product_name": "6 Oil Nourish Conditioner",
+    "actual_price": "239",
+    "discounted_price": "166.94"
+  },
+  {
+    "product_name": "Conditioner - Nourishing Soft & Smooth",
+    "actual_price": null,
+    "discounted_price": "166"
+  },
+  {
+    "product_name": "Total Repair 5 Conditioner",
+    "actual_price": "229",
+    "discounted_price": "159.96"
+  },
+  {
+    "product_name": "Gentle Daily Care Protein Conditioner - Chickpea, Lotus, For All Hair Types",
+    "actual_price": "165",
+    "discounted_price": "136.95"
+  },
+  {
+    "product_name": "Keratin Smooth Pro Collection Conditioner - Keratin & Argan Oil, Upto 100% Smoother Shiny Hair",
+    "actual_price": null,
+    "discounted_price": "229"
+  },
+  {
+    "product_name": "Extraordinary Clay  Conditioner",
+    "actual_price": "229",
+    "discounted_price": "162.09"
+  },
+  {
+    "product_name": "Gentle Daily Care Protein Conditioner - With Chickpea",
+    "actual_price": "90",
+    "discounted_price": "81.90"
+  },
+  {
+    "product_name": "Hyaluron Moisture 72H Moisture Sealing Conditioner | With Hyaluronic Acid | For Dry & Dehydrated Hair | Adds Shine & Bounce",
+    "actual_price": "249",
+    "discounted_price": "197.95"
+  },
+  {
+    "product_name": "Intense Repair Conditioner - With Keratin Actives, For Damaged & Frizzy Hair",
+    "actual_price": null,
+    "discounted_price": "368"
+  },
+  {
+    "product_name": "Advanced Hair Fall Solution Conditioner",
+    "actual_price": null,
+    "discounted_price": "90"
+  },
+  {
+    "product_name": "Color Protect Conditioner",
+    "actual_price": "239",
+    "discounted_price": "166.94"
+  },
+  {
+    "product_name": "Dream Lengths Conditioner",
+    "actual_price": null,
+    "discounted_price": "109"
+  },
+  {
+    "product_name": "6 Oil Nourish Rapid Reviver Deep Conditioner - Dry Hair, 2X Nourishment",
+    "actual_price": "240",
+    "discounted_price": "189"
+  },
+  {
+    "product_name": "Anti-Hairfall Conditioner - Aloe & 21 Ayurvedic Herbs, Silky, Shiny, Smooth Hair",
+    "actual_price": "200",
+    "discounted_price": "130"
+  },
+  {
+    "product_name": "Moroccan Argan Oil Conditioner - No Parabens, pH Balances",
+    "actual_price": "130",
+    "discounted_price": "123.50"
+  },
+  {
+    "product_name": "Hair Fall Rescue Conditioner - Infused With Nutrilock Act",
+    "actual_price": null,
+    "discounted_price": "368"
+  },
+  {
+    "product_name": "Fall Resist 3X Anti-Hairfall Conditioner",
+    "actual_price": "229",
+    "discounted_price": "162.09"
+  },
+  {
+    "product_name": "Thick & Full Conditioner",
+    "actual_price": null,
+    "discounted_price": "229"
+  },
+  {
+    "product_name": "Dryness Care Conditioner - Restores Smoothness, For Dry & Frizzy Hair",
+    "actual_price": null,
+    "discounted_price": "210"
+  },
+  {
+    "product_name": "Hair Fall Rescue Conditioner -  Infused With Nutrilock Actives, Controls Frizz",
+    "actual_price": null,
+    "discounted_price": "210"
+  },
+  {
+    "product_name": "6 Oil Nourish Conditioner",
+    "actual_price": "239",
+    "discounted_price": "166.94"
+  },
+  {
+    "product_name": "Conditioner - Nourishing Soft & Smooth",
+    "actual_price": null,
+    "discounted_price": "166"
+  },
+  {
+    "product_name": "Total Repair 5 Conditioner",
+    "actual_price": "229",
+    "discounted_price": "159.96"
+  },
+  {
+    "product_name": "Gentle Daily Care Protein Conditioner - Chickpea, Lotus, For All Hair Types",
+    "actual_price": "165",
+    "discounted_price": "136.95"
+  },
+  {
+    "product_name": "Keratin Smooth Pro Collection Conditioner - Keratin & Argan Oil, Upto 100% Smoother Shiny Hair",
+    "actual_price": null,
+    "discounted_price": "229"
+  },
+  {
+    "product_name": "Extraordinary Clay  Conditioner",
+    "actual_price": "229",
+    "discounted_price": "162.09"
+  },
+  {
+    "product_name": "Gentle Daily Care Protein Conditioner - With Chickpea",
+    "actual_price": "90",
+    "discounted_price": "81.90"
+  },
+  {
+    "product_name": "Hyaluron Moisture 72H Moisture Sealing Conditioner | With Hyaluronic Acid | For Dry & Dehydrated Hair | Adds Shine & Bounce",
+    "actual_price": "249",
+    "discounted_price": "197.95"
+  },
+  {
+    "product_name": "Intense Repair Conditioner - With Keratin Actives, For Damaged & Frizzy Hair",
+    "actual_price": null,
+    "discounted_price": "368"
+  },
+  {
+    "product_name": "Advanced Hair Fall Solution Conditioner",
+    "actual_price": null,
+    "discounted_price": "90"
+  },
+  {
+    "product_name": "Color Protect Conditioner",
+    "actual_price": "239",
+    "discounted_price": "166.94"
+  },
+  {
+    "product_name": "Dream Lengths Conditioner",
+    "actual_price": null,
+    "discounted_price": "109"
+  },
+  {
+    "product_name": "6 Oil Nourish Rapid Reviver Deep Conditioner - Dry Hair, 2X Nourishment",
+    "actual_price": "240",
+    "discounted_price": "189"
+  },
+  {
+    "product_name": "Anti-Hairfall Conditioner - Aloe & 21 Ayurvedic Herbs, Silky, Shiny, Smooth Hair",
+    "actual_price": "200",
+    "discounted_price": "130"
+  },
+  {
+    "product_name": "Moroccan Argan Oil Conditioner - No Parabens, pH Balances",
+    "actual_price": "130",
+    "discounted_price": "123.50"
+  },
+  {
+    "product_name": "Hair Fall Rescue Conditioner - Infused With Nutrilock Act",
+    "actual_price": null,
+    "discounted_price": "368"
+  },
+  {
+    "product_name": "Fall Resist 3X Anti-Hairfall Conditioner",
+    "actual_price": "229",
+    "discounted_price": "162.09"
+  },
+  {
+    "product_name": "Thick & Full Conditioner",
+    "actual_price": null,
+    "discounted_price": "229"
+  }
 ]
